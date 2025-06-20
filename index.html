@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Idle Clock</title>
+        <link rel="stylesheet" href="styles.css">
+       
+    </head>
+    <body>
+        <div>
+        <h1 id="Time"></h1>
+        <h2 id="Greeting"></h2>
+    </div>
+<a class="weatherwidget-io" href="https://forecast7.com/en/36d78n119d42/california/?unit=us" data-font="Roboto" data-icons="Climacons Animated" data-mode="Current" data-theme="original" data-basecolor="rgba(255, 255, 255, 0)" data-accent="rgba(255, 255, 255, 0)" data-cloudfill="rgba(255, 255, 255, 0)" >California, USA</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+        <div id="boxbg">
+        <ul id="box">
+            <nav>
+            <input id="input"placeholder ="Type your note" type="text">
+            <button class="button" id="submit">Add</button>
+        </nav>
+            <button id="updatebutton2" onclick="removeNotes()">×</button>
+        </ul>
+    </div>
+    <script>
+(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="m73qg4pgtMt65NuzK6FVu";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+</script>
+        <div id="alarmbox">
+        <input type="text" placeholder="Enter your alarm" id="alarminput">
+        <nav>
+         <button id="submitAlarm" onclick="submitAlarm()">Add</button> 
+         <button id="removealarm" onclick="removeAlarm()">×</button>
+        </nv>
+        </div>
+        <button id="updatebutton" onclick="newNote()">Notes</button>
+        <button id="openalarm" onclick="openAlarm()">Alarms</button>
+        <p id="day"></p>
+        <script src="script.js"></script>
+    </body>
+

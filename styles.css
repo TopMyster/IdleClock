@@ -1,0 +1,177 @@
+@font-face {
+      font-family: 'MyFont';
+      src: url('CascadiaCode-VariableFont_wght.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+
+#Time {
+    font-size: 300px;
+    color: rgb(233, 233, 233);
+    font-family: 'MyFont', Arial, sans-serif;
+    text-align: center;
+}
+
+#Greeting {
+    color: rgb(168, 168, 168);
+    font-family: 'MyFont', Arial, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 120px;
+    left: 525px;
+}
+body {
+    background-color: rgb(50, 50, 50);
+   overflow: hidden;
+}
+
+#updatebutton {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+#box {
+    width: 900px;
+      height: 600px;
+      background-color: #1d1d1d;
+      left: 250px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 1.2em;
+      box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.792);
+      top: 50px;
+      position: absolute;
+}
+
+#boxbg {
+    display: none;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    font-family: 'MyFont', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#updatebutton2 {
+    font-size: 30px;
+    font-family: 'MyFont', Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 5px;
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    left: 350px;
+}
+
+#input {
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+#ww_513666dad0f3a {
+    position: absolute;
+    top: 3px;
+    left: 200px;
+}
+
+.weatherwidget-io {
+    bottom: 240px;
+    position: absolute;
+    width: 225px;
+    left: 575px;
+}
+
+li {
+    top: 15px;
+    position: absolute;
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+#alarmbox {
+    width: 900px;
+      height: 600px;
+      background-color: #1d1d1d;
+      left: 250px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 1.2em;
+      box-shadow: 50px 50px 50px rgba(0, 0, 0, 0.792);
+      top: 50px;
+      position: absolute;
+    display: none;
+}
+
+#openalarm {
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 10px;
+    border: none;
+    padding: 8px 15px;
+    color: #fff;
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+#day {
+    top: 5px;
+    position: absolute;
+    left: 1330px;
+    font-size: 20px;
+    color: white;
+    font-family: 'MyFont', Arial, sans-serif;
+}
+
+#alarminput {
+    background-color: #1d1d1d;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-family: 'MyFont', Arial, sans-serif;
+    top: 550px;
+    left: 300px;
+    position: absolute;
+}
+
+#removealarm {
+        font-size: 30px;
+    font-family: 'MyFont', Arial, sans-serif;
+    background-color: #1d1d1d;
+    color: white;
+    border: none;
+    position: absolute;
+    left: 520px;
+    bottom: 550px;
+}
+
+#submitAlarm {
+     border: none;
+    border-radius: 5px;
+    font-family: 'MyFont', Arial, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 11px;
+    left: 250px;
+}
