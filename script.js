@@ -19,6 +19,9 @@ let year = d2.getFullYear();
 displayDay.textContent = month + "/" + date + "/" + year;
 const sound = "alarm.mp3";
 const audio = new Audio(sound);
+console.log('weather widget from https://weatherwidget.io/
+chatbox widget is powered by chatbase.chatbox
+alarm sound effect was generated using eleven labs')
 
 let alarms = [];
 
