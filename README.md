@@ -1,4 +1,4 @@
-weather widget from https://weatherwidget.io/
-chatbox widget is powered by chatbase.chatbox
-alarm sound effect was generated using eleven labs
+weather widget from https://weatherwidget.io/,
+,chatbox widget is powered by chatbase.chatbox, 
+and alarm sound effect was generated using eleven labs
 
